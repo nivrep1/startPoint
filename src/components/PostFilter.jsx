@@ -5,7 +5,7 @@ const PostFilter = ({ filter, setFilter }) => {
   return (
     <div>
       <MyInput
-        placeholder="Axtarış"
+        placeholder="Поиск..."
         value={filter.query}
         onChange={(e) => setFilter({ ...filter, query: e.target.value })}
       />
